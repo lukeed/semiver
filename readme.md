@@ -1,18 +1,18 @@
-# sem.ver [![Build Status](https://badgen.now.sh/travis/lukeed/sem.ver)](https://travis-ci.org/lukeed/sem.ver)
+# semiver [![Build Status](https://badgen.now.sh/travis/lukeed/semiver)](https://travis-ci.org/lukeed/semiver)
 
 > WIP
 
 This module exposes three module definitions:
 
-* **ES Module**: `dist/semver.mjs`
-* **CommonJS**: `dist/semver.js`
-* **UMD**: `dist/semver.min.js`
+* **ES Module**: `dist/semiver.mjs`
+* **CommonJS**: `dist/semiver.js`
+* **UMD**: `dist/semiver.min.js`
 
 
 ## Install
 
 ```
-$ npm install --save sem.ver
+$ npm install --save semiver
 ```
 
 

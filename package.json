@@ -1,12 +1,12 @@
 {
-  "name": "sem.ver",
+  "name": "semiver",
   "version": "0.0.0",
-  "repository": "lukeed/sem.ver",
+  "repository": "lukeed/semiver",
   "description": "WIP",
-  "module": "dist/semver.mjs",
-  "unpkg": "dist/semver.min.js",
-  "main": "dist/semver.js",
-  "types": "semver.d.ts",
+  "module": "dist/semiver.mjs",
+  "unpkg": "dist/semiver.min.js",
+  "main": "dist/semiver.js",
+  "types": "semiver.d.ts",
   "license": "MIT",
   "author": {
     "name": "Luke Edwards",
