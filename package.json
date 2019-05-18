@@ -1,0 +1,36 @@
+{
+  "name": "sem.ver",
+  "version": "0.0.0",
+  "repository": "lukeed/sem.ver",
+  "description": "WIP",
+  "module": "dist/semver.mjs",
+  "unpkg": "dist/semver.min.js",
+  "main": "dist/semver.js",
+  "types": "semver.d.ts",
+  "license": "MIT",
+  "author": {
+    "name": "Luke Edwards",
+    "email": "luke.edwards05@gmail.com",
+    "url": "lukeed.com"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "build": "bundt",
+    "pretest": "npm run build",
+    "test": "tape -r esm test/*.js | tap-spec"
+  },
+  "files": [
+    "*.d.ts",
+    "dist"
+  ],
+  "keywords": [
+  ],
+  "devDependencies": {
+    "bundt": "^0.4.0",
+    "esm": "^3.2.0",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.9.1"
+  }
+}
