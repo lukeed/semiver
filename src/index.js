@@ -1,17 +1,8 @@
 export default function (a, b) {
-	var i=0, tmp;
-
 	a = a.split('.');
 	b = b.split('.');
 
-	a[2] = a.slice(2).join('.');
-	b[2] = b.slice(2).join('.');
-
-	for (; i < 3; i++) {
-		if (tmp = a[i].localeCompare(b[i], 0, { numeric:1 })) {
-			return tmp;
-		}
-	}
-
-	return 0;
+	return a[0].localeCompare(b[0], 0, { numeric:1 })
+			|| a[1].localeCompare(b[1], 0, { numeric:1 })
+			|| a.slice(2).join('.').localeCompare(b.slice(2).join('.'), 0, { numeric:1 });
 }
