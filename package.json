@@ -2,7 +2,7 @@
   "name": "semiver",
   "version": "0.0.0",
   "repository": "lukeed/semiver",
-  "description": "WIP",
+  "description": "A tiny (153B) utility to compare semver strings",
   "module": "dist/semiver.mjs",
   "unpkg": "dist/semiver.min.js",
   "main": "dist/semiver.js",
@@ -26,6 +26,9 @@
     "dist"
   ],
   "keywords": [
+    "compare",
+    "semver",
+    "sort"
   ],
   "devDependencies": {
     "bundt": "^0.4.0",
