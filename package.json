@@ -1,6 +1,6 @@
 {
   "name": "semiver",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": "lukeed/semiver",
   "description": "A tiny (153B) utility to compare semver strings",
   "module": "dist/semiver.mjs",
