@@ -1,6 +1,6 @@
 # semiver [![Build Status](https://badgen.now.sh/travis/lukeed/semiver)](https://travis-ci.org/lukeed/semiver)
 
-> A tiny (153B) utility to compare semver strings.
+> A tiny (187B) utility to compare semver strings.
 
 Compare semver strings (eg, `1.8.2`, `2.0.0-next.6`, `0.0.0-alpha-1`, etc) using the [`Intl.Collator`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Collator) class.<br>
 Version suffixes are supported and are considered during comparison.

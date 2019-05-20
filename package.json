@@ -2,7 +2,7 @@
   "name": "semiver",
   "version": "1.0.1",
   "repository": "lukeed/semiver",
-  "description": "A tiny (153B) utility to compare semver strings",
+  "description": "A tiny (187B) utility to compare semver strings",
   "module": "dist/semiver.mjs",
   "unpkg": "dist/semiver.min.js",
   "main": "dist/semiver.js",
