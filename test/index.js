@@ -43,6 +43,21 @@ test('compare :: greater than', t => {
 	t.end();
 });
 
+test('compare :: clean vs suffix', t => {
+	// "stable"/clean is always bigger
+	t.semiver('1.0.0', '1.0.0-canary', 1);
+	t.semiver('1.0.0', '1.0.0-alpha.1', 1);
+	t.semiver('1.0.0', '1.0.0.alpha', 1);
+	t.semiver('1.0.0', '1.0.0-beta', 1);
+
+	t.semiver('1.0.0-canary', '1.0.0', -1);
+	t.semiver('1.0.0-alpha.1', '1.0.0', -1);
+	t.semiver('1.0.0.alpha', '1.0.0', -1);
+	t.semiver('1.0.0-beta', '1.0.0', -1);
+
+	t.end();
+});
+
 test('compare :: sorting', t => {
 	t.same(
 		[
