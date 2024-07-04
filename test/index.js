@@ -55,6 +55,10 @@ test('compare :: clean vs suffix', t => {
 	t.semiver('1.0.0.alpha', '1.0.0', -1);
 	t.semiver('1.0.0-beta', '1.0.0', -1);
 
+	t.semiver('1.0.0', '1.0.1-canary', -1);
+	t.semiver('1.0.0', '1.0.1-alpha.1', -1);
+	t.semiver('1.0.0', '1.0.1-beta', -1);
+
 	t.end();
 });
 
